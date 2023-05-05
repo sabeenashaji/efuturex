@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0% 10%;
+}
+.flex{
+    display: flex;
+}
+.j-content{
+    justify-content: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.list1{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.list1{
+    display: flex;
+    gap: 10px;
+}
+#spotlight{
+    display: flex;
+    justify-content: space-between;
+}
+#spotlight h1{
+    font-size: 3.5rem;
+}
+#spotlight p{
+    color: darkcyan;
+    font-size: 1.3rem;
+}
+#spotlight div img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#features h2, h4{
+    text-align: center;
+    gap: 0 5%;
+
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+    margin-bottom: 30px;
+    justify-content: center;
+}
+#features{
+    padding: 100px;
+}
+#features h2{
+    font-size: 30px;
+    
+}
+.row1 p{
+    color: blueviolet;
+}
+.row1 container{
+    padding: 100px;
+}
+.iconsize{
+    font-size: 2rem;
+}
+
+.row1 h3{
+    padding: 10px;
+    justify-content: space-between;
+}
+#details h4,h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.list2{
+    line-height: 2.5rem;
+    color: blue;
+    padding-left: 100px;
+    list-style: none;
+    
+}
+.challenge p{
+    color: blue;
+    
+}
+#details div.flex{
+    gap: 50px;
+}
+.card{
+    box-shadow: 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 200px;
+    height: 300px;
+}
+.challenge h3{
+    margin-bottom: 20px;
+}
+.fa-wrench{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+
+}
+.images-section img{
+    height: 100px;
+    width: 100px;
+}
+.image{
+    text-align: center;
+    padding: 100px;
+}
+.imagegap{
+    padding: 3rem;
+}
+.heading{
+    text-align: center;
+    padding: 50px;
+}
+footer{
+    background-color: rgb(42, 42, 161);
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+
+}
+#address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.formbg{
+    background-color: white;
+    box-shadow: 0 .6125rem 2.5rem .6125rem rgba(140,152,164,.175)!important;
+    border-radius: 3px;
+}
+#mobile{
+    display: none;
+}
+#features div .container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+}
+ 
+.flex .j-content{
+    padding: 30px;
+    justify-content: space-between;
+}
+.row1 h3{
+    padding: 10px;
+    justify-content: space-between;
+}
+      
+.fa-slack-hash:before, .fa-slack:before {
+    font-size: 50px;
+}
+.formbg h3{
+    display: flex;
+    color: black;
+}
+.button{
+    background-color: blue;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+.button a{
+    color: white;
+}
+.flex h4,p{
+    padding: 15px;
+    justify-content: space-between;
+}
+.i-con{
+    padding: 15px;
+    font-size: 30px;
+}
+footer h4{
+    font-size: 1rem;
+}
+footer p{
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+    
+     
+
+/* Responsive design starts here */
+@media screen and (max-width: 800px ) {
+    .list1{
+        display: none;
+    }
+    #mobile{
+        display: block;
+    }.spotimage{
+        display: none;
+    }.j-content{
+        flex-direction: column;
+        align-items: center;
+    }footer{
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+    
+
+
+
