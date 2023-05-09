@@ -101,7 +101,7 @@ a{
 }
 .card{
     box-shadow: 12px 2px 1px rgba(0, 0, 255, .2);
-    width: 200px;
+    width: 210px;
     height: 300px;
 }
 .challenge h3{
@@ -199,6 +199,23 @@ footer p{
 .row1{
     text-align: center;
 }
+.list2{
+    display: none;
+}
+#jav{
+    position: absolute;
+    background-color: rgb(252, 250, 254);
+    height: 150pv;
+    width: 300px;
+    padding-top: 0;
+    padding-right: 0;
+    text-align: left;
+    z-index: 2;
+    align-items: left;
+    margin-top: 300px;
+    line-height: 2;
+}
+
 
 
 
