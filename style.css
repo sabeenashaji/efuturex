@@ -204,7 +204,7 @@ footer p{
 }
 #jav{
     position: absolute;
-    background-color: rgb(252, 250, 254);
+    background-color: white;
     height: 150pv;
     width: 300px;
     padding-top: 0;
@@ -215,17 +215,9 @@ footer p{
     margin-top: 300px;
     line-height: 2;
 }
-
-
-
-
-
-
-
-
-
-    
-     
+#slide{
+    color: rgb(58, 58, 213);
+}
 
 /* Responsive design starts here */
 @media screen and (max-width: 800px ) {

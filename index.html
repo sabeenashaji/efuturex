@@ -7,6 +7,7 @@
     <title>efuturex project</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/182603b8d9.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
     <header class="container">
@@ -40,7 +41,7 @@
     </header>
     <section id="spotlight" class="container">
         <div>
-            <h1>Unlock your future</h1> 
+            <h1>Unlock your <br><span id="slide"> future</span></h1> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio officiis perspiciatis cum deserunt temporibus porro quis repellendus minus commodi debitis, nam rerum? Nobis suscipit aperiam quaerat earum dolor dicta.ss</p>
         </div>
         <div class="spotimage">
@@ -96,7 +97,7 @@
         </div>
     </section>
     <section id="details">
-            <h4>ABOUT THE PROGRAM</h4>name
+            <h4>ABOUT THE PROGRAM</h4>
             <h2>You will be learning in detail about</h2>
             <div class="flex j-content">
                 <div>
@@ -192,6 +193,15 @@
     </div>
 
  </footer>
+ <script>
+    var typed = new Typed('#slide', {
+      strings: ["future.","potential.","skills."],
+      typeSpeed: 80,
+      loop:true
+    })
+  </script>
+</body>
+
         
 
 </body>
